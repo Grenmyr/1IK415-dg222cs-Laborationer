@@ -2,3 +2,4 @@
 {"contributors":[],"silentsave":false,"ts":1378325223412,"patch":[[{"diffs":[[1,"tjohej"]],"start1":0,"start2":0,"length1":0,"length2":6}]],"length":6,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1378325450380,"patch":[[{"diffs":[[0,"tjohej"],[1," commit under terminal fungerar fortfarande inte!"]],"start1":0,"start2":0,"length1":6,"length2":55}]],"length":55,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1378326444608,"patch":[[{"diffs":[[0,"de inte!"],[1,"f"]],"start1":47,"start2":47,"length1":8,"length2":9}]],"length":56,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1378724926550,"patch":[[{"diffs":[[-1,"tjohej commit under terminal fungerar fortfarande inte!f"],[1,"Testar o se om \"commit\" funkar\""]],"start1":0,"start2":0,"length1":56,"length2":31}]],"length":31,"saved":false}
