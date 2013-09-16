@@ -1,0 +1,4 @@
+{"ts":1379330889338,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1379331035081,"patch":[[{"diffs":[[1,"1.4.1 Vilken är den absoluta sökvägen till bottom.html?\n"]],"start1":0,"start2":0,"length1":0,"length2":56}]],"length":56,"saved":false}
+{"ts":1379332194209,"patch":[[{"diffs":[[0,"m.html?\n"],[1,"http://www.html/pages/bottom.html\n1.4.2 pages/top.html\n1.4.3 ../../index.html\n1.4.4 http://www.index.html\n1.4.5"]],"start1":48,"start2":48,"length1":8,"length2":119}]],"length":167,"saved":false}
+{"ts":1379332540562,"patch":[[{"diffs":[[0,"ml\n1.4.5"],[1," bottom.html\n1.4.6 html//pages/top.html"]],"start1":159,"start2":159,"length1":8,"length2":47}]],"length":206,"saved":false}
