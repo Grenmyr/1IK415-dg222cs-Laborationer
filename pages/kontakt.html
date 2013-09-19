@@ -12,25 +12,25 @@
                 <legend>Fråga</legend>
             
                 <label for="subject">Ämne</label>
-                <select id="subject">
+                <select id="subject" name="subject">
                     <option value="c#">C#</option>
                     <option value="PHP">PHP</option>
                     <option value="CSS">CSS</option>
                 </select><br/><br/>
             
                 <label for="heading">Rubrik:</label>
-                <input id="heading" type = "text" maxlength="20" /><br/><br/>
+                <input id="heading" type = "text" name="heading" maxlength="20" /><br/><br/>
                 
                 <label for="question">Din Fråga</label>
-                <textarea id="question" name="text" rows="5" cols="30"></textarea>
+                <textarea id="question" name="question" rows="5" cols="30"></textarea>
                   
             </fieldset>
             
             <fieldset>
                 <legend>Dina kontaktuppgifter</legend>
             
-                <label for="email">Epost</label><input id="email" type="checkbox" name="communication" value="email" /><br/>
-                <label for="phone">Telefon</label><input id="phone" type="checkbox" name="communication" value="phone" />  
+                <label for="email">Epost</label><input id="email" type="checkbox" name="email" value="email" /><br/>
+                <label for="phone">Telefon</label><input id="phone" type="checkbox" name="phone" value="phone" />  
             </fieldset>
             
             <input type = "submit" value="Skicka fråga" />
