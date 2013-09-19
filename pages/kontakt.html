@@ -1,1 +1,40 @@
-Testar o se om  funkar"
+<!doctype html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8" />
+        <title>kontakt</title>
+    </head>
+    <body>
+        <h3>Kontakta mig</h3>
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+            <fieldset>
+            
+                <legend>Fråga</legend>
+            
+                <label for="subject">Ämne</label>
+                <select id="subject">
+                    <option value="c#">C#</option>
+                    <option value="PHP">PHP</option>
+                    <option value="CSS">CSS</option>
+                </select><br/><br/>
+            
+                <label for="heading">Rubrik:</label>
+                <input id="heading" type = "text" maxlength="20" /><br/><br/>
+                
+                <label for="question">Din Fråga</label>
+                <textarea id="question" name="text" rows="5" cols="30"></textarea>
+                  
+            </fieldset>
+            
+            <fieldset>
+                <legend>Dina kontaktuppgifter</legend>
+            
+                <label for="email">Epost</label><input id="email" type="checkbox" name="communication" value="email" /><br/>
+                <label for="phone">Telefon</label><input id="phone" type="checkbox" name="communication" value="phone" />  
+            </fieldset>
+            
+            <input type = "submit" value="Skicka fråga" />
+                
+        </form>
+    </body>
+</html>
