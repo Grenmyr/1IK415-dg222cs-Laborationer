@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-ol, dl, p {
+ol, dl, p, a {
     padding: 30px;
 }
 
@@ -64,7 +64,6 @@ dt, h1, h2, h3, h4, li {
      
     
 }
-
 #header {
     height: 100px;
     
@@ -72,6 +71,9 @@ dt, h1, h2, h3, h4, li {
     background-image: url('pics/header.jpg');
     border: 1px solid #000;
 }
+
+
+
 
 #sidebar {
     float: left;
@@ -86,14 +88,15 @@ dt, h1, h2, h3, h4, li {
     width: 200px;
     
     background-color: #33FFFF;
-    min-height: inherit;
+    min-height: 960px;
 }
 
 
 #content {
-    margin: inherit;
+    margin: auto auto;
     min-height:inherit;
     border: 1px solid #000;
+    width: 700px;
     /*overflow: auto;*/
     
 }
@@ -120,7 +123,7 @@ dt, h1, h2, h3, h4, li {
 }
 .active {
     
-    padding: 5px;
+    padding: 30px;
     background: #B8B8B8;
 }
 
