@@ -46,12 +46,23 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+ol, dl, p {
+    padding: 30px;
+}
+
+dt, h1, h2, h3, h4, li {
+    text-align: center;
+    
+}
 
 #container {
     min-height: 960px;
     width: 1200px;
     margin: auto auto;
     border: 1px solid #000;
+     font-style:oblique;
+     
+    
 }
 
 #header {
@@ -83,7 +94,6 @@ table {
     margin: inherit;
     min-height:inherit;
     border: 1px solid #000;
-    
     /*overflow: auto;*/
     
 }
@@ -115,17 +125,11 @@ table {
 }
 
 p {
-    font-style:oblique;
+    
     text-align: center;
 }
 
 #kortfattat dl {
     float: right;
-    padding: 5px;
-    font-style:oblique;
+}
 
-}
-#kortfattat dt {
-    text-align:center;
-    
-}
