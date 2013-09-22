@@ -74,7 +74,7 @@ table {
     float: right;
     width: 200px;
     
-    background-color: #99FFCC;
+    background-color: #33FFFF;
     min-height: inherit;
 }
 
@@ -95,3 +95,37 @@ table {
     background-color: #B8B8B8  ;
 }
 
+#leftmenu ul li{
+    padding: 5px;
+}
+
+#leftmenu ul li a{
+    text-decoration: none;
+    display: block;
+}
+
+#leftmenu  li:hover{
+    text-decoration: underline;
+    background: black;
+}
+.active {
+    
+    padding: 5px;
+    background: #B8B8B8;
+}
+
+p {
+    font-style:oblique;
+    text-align: center;
+}
+
+#kortfattat dl {
+    float: right;
+    padding: 5px;
+    font-style:oblique;
+
+}
+#kortfattat dt {
+    text-align:center;
+    
+}
