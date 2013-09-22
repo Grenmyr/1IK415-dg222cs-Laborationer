@@ -64,14 +64,25 @@ table {
 
 #sidebar {
     float: left;
-    width: 150px;
+    width: 200px;
 
     background-color: #99FFCC;
-    height: 300px;
+    min-height: inherit;
 }
+
+#sidebar2 {
+    float: right;
+    width: 200px;
+    
+    background-color: #99FFCC;
+    min-height: inherit;
+}
+
+
 #content {
-    margin-left: 170px;
-    min-height:820px;
+    margin: inherit;
+    min-height:inherit;
+    border: 1px solid #000;
     
     /*overflow: auto;*/
     
@@ -81,6 +92,6 @@ table {
     clear: both;
     height: 50px;
     border: 1px solid #000;
-    background-color: #99FFCC;
+    background-color: #B8B8B8  ;
 }
 
