@@ -156,3 +156,11 @@ p {
   padding: 20px;
 }
 
+.right {
+   float:right; 
+   
+}
+.blogg {
+    paddding: 30px;
+    font-family: "Comic sans MS";
+}
