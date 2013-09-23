@@ -161,6 +161,16 @@ p {
    
 }
 .blogg {
-    paddding: 30px;
-    font-family: "Comic sans MS";
+    padding: 30px;
+    
+}
+
+table, th, th, td {
+border: 1px solid black;
+background: #B8B8B8;
+}
+
+#table {
+    margin:right 300px;
+    padding:30px;
 }
