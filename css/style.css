@@ -46,11 +46,23 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-ol, dl, p, a {
+ dl, a, ul {
     padding: 30px;
 }
 
-dt, h1, h2, h3, h4, li {
+h1, h2 {
+    padding: 30px;
+    font-size: 2.5em;
+}
+
+h4 {
+    padding: 20px;
+    font-size: 1.3em;
+    text-align: center;
+    border: 5px solid #B8B8B8; 
+}
+
+dt, li {
     text-align: center;
     
 }
@@ -108,9 +120,6 @@ dt, h1, h2, h3, h4, li {
     background-color: #B8B8B8  ;
 }
 
-#leftmenu ul li{
-    padding: 5px;
-}
 
 #leftmenu ul li a{
     text-decoration: none;
@@ -121,6 +130,11 @@ dt, h1, h2, h3, h4, li {
     text-decoration: underline;
     background: black;
 }
+
+#leftmenu ul li a:hover {
+    color: #fff;
+}
+
 .active {
     
     padding: 30px;
@@ -130,9 +144,15 @@ dt, h1, h2, h3, h4, li {
 p {
     
     text-align: center;
+    padding: 10px;
 }
 
 #kortfattat dl {
     float: right;
+}
+
+#stycke {
+  
+  padding: 20px;
 }
 
