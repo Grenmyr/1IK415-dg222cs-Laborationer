@@ -174,3 +174,43 @@ background: #B8B8B8;
     margin:right 300px;
     padding:30px;
 }
+
+#form {
+    background-color: #99FFCC;
+    border: 1px solid #000 
+}
+
+legend {
+    padding: 5px;
+    font-size: 1.2em;
+    background-color:#99FFCC;
+   float: left;
+   
+}
+
+label {
+    padding: 20px;
+    text-align:left;
+    
+}
+
+fieldset {
+    width: 450px;
+    background-color:#B8B8B8;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+#question {
+    padding: 10px;
+    float: right;
+
+}
+textarea {
+ border: 1px solid #000 
+}
+
+
+

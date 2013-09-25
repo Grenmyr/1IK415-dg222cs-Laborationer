@@ -7,13 +7,18 @@
         
     </head>
     <body>
-        <h3>Kontakta mig</h3>
+        
+        <div id="content">  
+        <h4>Kontakta mig</h4>
+        
+         
         <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+            <div id="form"> 
             <fieldset>
             
-                <legend>Fråga</legend>
+                <legend>Fråga ?</legend>
             
-                <label for="subject">Ämne</label>
+                <label for="subject">Ämne:</label>
                 <select id="subject" name="subject">
                     <option value="c#">C#</option>
                     <option value="PHP">PHP</option>
@@ -22,21 +27,20 @@
             
                 <label for="heading">Rubrik:</label>
                 <input id="heading" type = "text" name="heading" maxlength="20" /><br/><br/>
-                
-                <label for="question">Din Fråga</label>
-                <textarea id="question" name="question" rows="5" cols="30"></textarea>
-                  
-            </fieldset>
             
-            <fieldset>
-                <legend>Dina kontaktuppgifter</legend>
+                <label  for="question">Din Fråga:</label>
+                <textarea  name="question" rows="10" cols="50"></textarea>
+              
+                <legend>Hur vill du bli kontaktad?:</legend>
             
-                <label for="email">Epost</label><input id="email" type="checkbox" name="email" value="email" /><br/>
+                <label for="email">Epost</label><input id="epost" type="checkbox" name="email" value="email" />
                 <label for="phone">Telefon</label><input id="phone" type="checkbox" name="phone" value="phone" />  
-            </fieldset>
             
-            <input type = "submit" value="Skicka fråga" />
-                
+                <input id="question" type = "submit" value="Skicka fråga" />  
+            </fieldset>
+             
+         </div>       
         </form>
+        </div>
     </body>
 </html>
