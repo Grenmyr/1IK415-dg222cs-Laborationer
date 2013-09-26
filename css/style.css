@@ -205,6 +205,8 @@ fieldset {
 }
 #question {
     padding: 10px;
+    display: block;
+    width: 200px;
     float: right;
 
 }
@@ -212,5 +214,23 @@ textarea {
  border: 1px solid #000 
 }
 
+#kontaktinfo { display: block; width: 200px; float: right; margin-top: -50px; text-align: right; }
 
+/* jag kan inte få texten att ställas upp snyggt på epost/email */ 
+
+#epost { margin: left 10px; }
+
+
+@media screen
+  {
+  p.test {font-family:verdana,sans-serif;font-size:14px;}
+  }
+@media print
+  {
+  p.test {font-family:times,serif;font-size:10px;}
+  }
+@media screen,print
+  {
+  p.test {font-weight:bold;}
+  }
 
