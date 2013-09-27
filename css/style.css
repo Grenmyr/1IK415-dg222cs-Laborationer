@@ -46,9 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+ 
+ 
  dl, a, ul {
     padding: 30px;
-}
+} 
 
 h1, h2 {
     padding: 30px;
@@ -73,6 +75,7 @@ dt, li {
     margin: auto auto;
     border: 1px solid #000;
      font-style:oblique;
+    
      
     
 }
@@ -119,28 +122,46 @@ dt, li {
     border: 1px solid #000;
     background-color: #B8B8B8  ;
 }
-
-
-#leftmenu ul li a{
+/*
+#leftmenu ul li {
     text-decoration: none;
     display: block;
 }
 
+
 #leftmenu  li:hover{
     text-decoration: underline;
     background: black;
+    
 }
 
 #leftmenu ul li a:hover {
     color: #fff;
+} */
+#leftmenu li {
+    float:left;
 }
 
-.active {
+#leftmenu a {
+    width:24px;
+    height:24px;
+    display:block;
+    background-image:url(pics/sprite.png);
+    margin-top:24px;
+    background-repeat: no-repeat;
+    text-indent:-99999px;
+}
+
+#start { background-position:0 0 }
+#start:hover { background-position:0 0 }
+
+/*.active {
     
     padding: 30px;
     background: #B8B8B8;
+    
 }
-
+*/
 p {
     
     text-align: center;
