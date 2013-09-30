@@ -152,8 +152,8 @@ dt, li {
     text-indent:-99999px;
 }
 
-#start { background-position:0 0 }
-#start:hover { background-position:0 0 }
+#start { background-position:0 48px }
+#start:hover { background-position:0 0px }
 
 /*.active {
     
