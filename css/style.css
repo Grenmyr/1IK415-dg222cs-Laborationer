@@ -48,9 +48,9 @@ table {
 }
  
  
- dl, a, ul {
+dl, ul {
     padding: 30px;
-} 
+}
 
 h1, h2 {
     padding: 30px;
@@ -63,6 +63,7 @@ h4 {
     text-align: center;
     border: 5px solid #B8B8B8; 
 }
+
 
 dt, li {
     text-align: center;
@@ -140,21 +141,30 @@ dt, li {
 } */
 #leftmenu li {
     float:left;
+    width:100%;
 }
 
 #leftmenu a {
-    width:24px;
     height:24px;
+    width:100%;
     display:block;
     background-image:url(pics/sprite.png);
-    margin-top:24px;
+    padding-left:24px;
     background-repeat: no-repeat;
-    text-indent:-99999px;
+    text-align:left;
 }
 
-#start { background-position:0 48px }
-#start:hover { background-position:0 0px }
+#start { background-position:0 0 }
+#start:hover { background-position:0 -48px}
 
+#laborationer { background-position:0 -144px }
+#laborationer:hover { background-position: 0 -96px }
+
+#presentation { background-position: 0 -240px }
+#presentation:hover { background-position: 0 -192px }
+
+#kontakt { background-position: 0 -336px }
+#kontakt:hover { background-position: 0 -288px }
 /*.active {
     
     padding: 30px;
