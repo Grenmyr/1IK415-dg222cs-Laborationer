@@ -215,8 +215,8 @@ background: #B8B8B8;
 legend {
     padding: 5px;
     font-size: 1.2em;
-    background-color:#99FFCC;
-   float: left;
+    /*background-color:#99FFCC;*/
+   /*float: left;*/
    
 }
 
@@ -228,10 +228,11 @@ label {
 
 fieldset {
     width: 450px;
-    background-color:#B8B8B8;
-    margin: auto;
+    background-color:#fff;
+    margin: 0 auto;
     padding: 10px;
-    text-align: center;
+    border:1px solid black;
+    /*text-align: center;*/
     
     
 }
@@ -239,7 +240,7 @@ fieldset {
     padding: 10px;
     display: block;
     width: 200px;
-    float: right;
+    /*float: right;*/
 
 }
 textarea {
@@ -250,19 +251,6 @@ textarea {
 
 /* jag kan inte få texten att ställas upp snyggt på epost/email */ 
 
-#epost { margin: left 10px; }
 
 
-@media screen
-  {
-  p.test {font-family:verdana,sans-serif;font-size:14px;}
-  }
-@media print
-  {
-  p.test {font-family:times,serif;font-size:10px;}
-  }
-@media screen,print
-  {
-  p.test {font-weight:bold;}
-  }
 

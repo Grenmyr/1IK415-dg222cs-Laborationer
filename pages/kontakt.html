@@ -9,38 +9,46 @@
     <body>
         
         <div id="content">  
-        <h4>Kontakta mig</h4>
-        
-         
-        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-            <div id="form"> 
-            <fieldset>
+            <h4>Kontakta mig</h4>
             
-                <legend>Fråga ?</legend>
-            
-                <label for="subject">Ämne:</label>
-                <select id="subject" name="subject">
-                    <option value="c#">C#</option>
-                    <option value="PHP">PHP</option>
-                    <option value="CSS">CSS</option>
-                </select><br/><br/>
-            
-                <label for="heading">Rubrik:</label>
-                <input id="heading" type = "text" name="heading" maxlength="20" /><br/><br/>
-            
-                <label  for="question">Din Fråga:</label>
-                <textarea  name="question" rows="10" cols="50"></textarea>
-              
-                <legend>Hur vill du bli kontaktad?:</legend>
-            <ul id="kontaktinfo">
-            <li>    <label for="email">Epost</label><input id="epost" type="checkbox" name="email" value="email" /></li>
-            <li>    <label for="phone">Telefon</label><input id="phone" type="checkbox" name="phone" value="phone" /></li>  
-            </ul>
-                <input id="question" type = "submit" value="Skicka fråga" />  
-            </fieldset>
              
-         </div>       
-        </form>
+            <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+                <div id="form"> 
+                    <fieldset>
+                       
+                            <legend>Fråga ?</legend>
+                        
+                        <div >
+                            <label for="subject">Ämne:</label>
+                            <select id="subject" name="subject">
+                                <option value="c#">C#</option>
+                                <option value="PHP">PHP</option>
+                                <option value="CSS">CSS</option>
+                            </select>
+                        </div>
+                        <div >    
+                            <label for="heading">Rubrik:</label>
+                            <input id="heading" type = "text" name="heading" maxlength="20" />
+                        </div>
+                        <div >
+                            <label  for="question">Din Fråga:</label>
+                            <textarea  name="question" rows="10" cols="50"></textarea>
+                        </div>
+                        
+                    </fieldset>
+                    <fieldset>
+                  
+                            <legend>Hur vill du bli kontaktad?:</legend>
+                          
+                        <div>
+                            <label for="email">Epost</label><input id="epost" type="checkbox" name="email" value="email" />
+                            <label for="phone">Telefon</label><input id="phone" type="checkbox" name="phone" value="phone" /> 
+                        </div>    
+                        <input id="question" type = "submit" value="Skicka fråga" />  
+                    </fieldset>
+                     
+                 </div>       
+            </form>
         </div>
     </body>
 </html>
