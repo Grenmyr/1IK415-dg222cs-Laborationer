@@ -255,45 +255,54 @@ textarea {
 
 @media only screen and (max-width: 380px){
 
-#container {   
-    width:100%;
-    float:none;
-
-}
-
-#header { 
-    width:100%; 
-    height:auto;
-}
-#content{
-    width:100%;
-}
-
-#sidebar { 
-    width:100%;
-    float:none; 
-    height:150px;
-}
-#sidebar2 {
-   
-display:none;
-}
-h1, h2 {
-    padding: 5px;
-    font-size: 2.5em;
-}
-h4 {
-    padding: 3px;
-    font-size: 1.3em;
-    text-align: center;
-    border: 3px solid #B8B8B8; 
-}
-
-#kortfattat dl {
-    width:100% ;
-    float:none;
-
-
-}
+    #container {   
+        width:100%;
+        float:none;
+    
+    }
+    
+    #header { 
+        width:100%; 
+        height:auto;
+    }
+    #content{
+        width:100%;
+    }
+    
+    #sidebar { 
+        width:100%;
+        float:none; 
+        height:150px;
+    }
+    #sidebar2 {
+       
+    display:none;
+    }
+    h1, h2 {
+        padding: 5px;
+        font-size: 2.5em;
+    }
+    h4 {
+        padding: 3px;
+        font-size: 1.3em;
+        text-align: center;
+        border: 3px solid #B8B8B8; 
+    }
+    
+    #kortfattat dl {
+        width:100% ;
+        float:none;
+        text-align:center;
+        margin:auto auto;
+      
+    
+    }
+    
+    #bild1{
+        display: block;
+        margin: auto auto;
+        height: auto;
+        max-width: 100%;
+    }
 
 }
