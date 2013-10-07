@@ -22,3 +22,4 @@
 {"ts":1380543490548,"patch":[[{"diffs":[[0,"          <li><a"],[1," id=\"laborationer\""],[0," href=\"pages/lab"]],"start1":693,"start2":693,"length1":32,"length2":50}]],"length":6218,"saved":false}
 {"ts":1380543514532,"patch":[[{"diffs":[[0,"          <li><a"],[1," id=\"presentation\""],[0," href=\"pages/pre"]],"start1":795,"start2":795,"length1":32,"length2":50}]],"length":6236,"saved":false}
 {"ts":1380543525975,"patch":[[{"diffs":[[0,"  <li><a"],[1," id=\"kontakt\""],[0," href=\"p"]],"start1":905,"start2":905,"length1":16,"length2":29}]],"length":6249,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1380545969149,"patch":[[{"diffs":[[0,"           </p>\n"],[1,"                    <p>\n                        <a href=\"http://www.dn.se\">Läs mer här...</a>\n                    </p>\n"],[0,"                "]],"start1":2492,"start2":2492,"length1":32,"length2":151}]],"length":6368,"saved":false}

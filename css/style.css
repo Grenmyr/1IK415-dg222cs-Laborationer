@@ -71,7 +71,7 @@ dt, li {
 }
 
 #container {
-    min-height: 960px;
+    
     width: 1200px;
     margin: auto auto;
     border: 1px solid #000;
@@ -94,9 +94,8 @@ dt, li {
 #sidebar {
     float: left;
     width: 200px;
-
+    height:400px;
     background-color: #99FFCC;
-    min-height: inherit;
 }
 
 #sidebar2 {
@@ -104,14 +103,14 @@ dt, li {
     width: 200px;
     
     background-color: #33FFFF;
-    min-height: 960px;
+    min-height: 400px;
 }
 
 
 #content {
     margin: auto auto;
     min-height:inherit;
-    border: 1px solid #000;
+    
     width: 700px;
     /*overflow: auto;*/
     
@@ -128,17 +127,19 @@ dt, li {
     text-decoration: none;
     display: block;
 }
-
+*/
 
 #leftmenu  li:hover{
     text-decoration: underline;
     background: black;
+    display:block;
+    color:white;
     
 }
 
 #leftmenu ul li a:hover {
     color: #fff;
-} */
+} 
 #leftmenu li {
     float:left;
     width:100%;
@@ -152,6 +153,7 @@ dt, li {
     padding-left:24px;
     background-repeat: no-repeat;
     text-align:left;
+    text-decoration:none;
 }
 
 #start { background-position:0 -48px }
@@ -166,7 +168,7 @@ dt, li {
 #kontakt { background-position: 0 -336px }
 #kontakt:hover { background-position: 0 -288px }
 
-.active {
+.active  {
     
     
     background: #B8B8B8;
@@ -249,8 +251,20 @@ textarea {
 
 #kontaktinfo { display: block; width: 200px; float: right; margin-top: -50px; text-align: right; }
 
-/* jag kan inte få texten att ställas upp snyggt på epost/email */ 
+/* Media device smartphone 480px max witdh */ 
 
+@media only screen and (max-width: 480px){
 
+#container {   width:100%;}
 
+#header { width:100%; 
+height:auto;
+}
 
+#sidebar { 
+    width:100%;
+    float:none; 
+    height:50px;
+}
+
+}

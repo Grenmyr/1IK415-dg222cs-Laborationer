@@ -7,6 +7,7 @@
     min-height:inherit;
     border: 1px solid #000;
     width: 100%;
+    padding-left: 7px;
    
 }
 #header {
@@ -17,6 +18,11 @@
 #sidebar2 {display:none;}
 
 video {display:none; }
+
+a:link:after,
+a:visited:after{
+    content:"["attr(href)"]";
+}
     
     
     

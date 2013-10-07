@@ -13,3 +13,4 @@
 {"ts":1380543401308,"patch":[[{"diffs":[[0,"      <li><a"],[1," id=\"laborationer\""],[0," href=\"labor"]],"start1":614,"start2":614,"length1":24,"length2":42}]],"length":5047,"saved":false}
 {"ts":1380543417978,"patch":[[{"diffs":[[0,"      <li><a"],[1," id=\"presentation\""],[0," href=\"prese"]],"start1":702,"start2":702,"length1":24,"length2":42}]],"length":5065,"saved":false}
 {"ts":1380543440754,"patch":[[{"diffs":[[0,"  <li><a"],[1," id=\"kontakt\""],[0," href=\"k"]],"start1":809,"start2":809,"length1":16,"length2":29}]],"length":5078,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1381131917312,"patch":[[{"diffs":[[0,"a=\"print\"/>\n"],[1,"        <meta name=\"viewport\" content=\"width=device-width\">\n"],[0,"        \n   "]],"start1":271,"start2":271,"length1":24,"length2":84}]],"length":5138,"saved":false}
