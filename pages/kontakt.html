@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <title>kontakt</title>
         <link rel="stylesheet" type="text/css" href="../css/style.css"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
         <link rel="apple-touch-icon" sizes="114x114" href="../pics/apple.png" />
         <link rel="shortcut icon" href="../pics/favicon.ico"/>
         
@@ -15,15 +15,25 @@
             <div id="header4">
             <h4>Kontakta mig</h4>
             </div>
-             
+            
+            <div id="sidebar"> 
+            <div id="leftmenu">
+            <ul>
+                <li><a id="start" href="../index.html">Start</a></li>
+                <li><a id="laborationer" href="laborationer.html">Laborationer</a></li>
+                <li><a id="presentation" href="presentation.html" class="active">Presentation</a></li>
+                <li><a id="kontakt" href="kontakt.html">Kontakt</a></li>
+            </ul> 
+            </div>
+        </div> 
             <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
                 <div id="form"> 
                     <fieldset>
                        
                             <legend>Fråga ?</legend>
                         
-                        <div >
-                            <label for="subject">Ämne:</label>
+                        <div>
+                            <label class="label" for="subject">Ämne:</label>
                             <select id="subject" name="subject">
                                 <option value="c#">C#</option>
                                 <option value="PHP">PHP</option>
@@ -31,11 +41,11 @@
                             </select>
                         </div>
                         <div >    
-                            <label for="heading">Rubrik:</label>
+                            <label class="label" for="heading">Rubrik:</label>
                             <input id="heading" type = "text" name="heading" maxlength="20" />
                         </div>
                         <div >
-                            <label  for="question">Din Fråga:</label>
+                            <label class="label"  for="question">Din Fråga:</label>
                             <textarea  name="question" ></textarea>
                         </div>
                         
@@ -45,8 +55,8 @@
                             <legend>Hur vill du bli kontaktad?:</legend>
                           
                         <div>
-                            <label for="email">Epost</label><input id="epost" type="checkbox" name="email" value="email" />
-                            <label for="phone">Telefon</label><input id="phone" type="checkbox" name="phone" value="phone" /> 
+                            <label class="label" for="email">Epost</label><input id="epost" type="checkbox" name="email" value="email" />
+                            <label class="label" for="phone">Telefon</label><input id="phone" type="checkbox" name="phone" value="phone" /> 
                         </div>    
                         <input id="question" type = "submit" value="Skicka fråga" />  
                     </fieldset>

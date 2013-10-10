@@ -154,6 +154,7 @@ dt, li {
     background-repeat: no-repeat;
     text-align:left;
     text-decoration:none;
+    font-size: 1.3em;
 }
 
 #start { background-position:0 -48px }
@@ -224,10 +225,17 @@ legend {
    
 }
 
-label {
-    padding: 20px;
-    text-align:left;
+.label {
+    /*padding: 20px;*/
+    /*text-align:left;*/
     
+    display: inline-block;
+    width: 200px;
+    vertical-align: right;
+    background-color:#99FFCC;
+    border:1px solid black;
+    margin-top:5px;
+    margin-bottom:5px;
 }
 
 fieldset {
@@ -236,6 +244,7 @@ fieldset {
     margin: 0 auto;
     padding: 10px;
     border:1px solid black;
+    
     /*text-align: center;*/
     
     
@@ -257,8 +266,13 @@ textarea {
 
 /* Media device smartphone 480px max witdh */ 
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 480px){
 
+    iframe{
+        height: auto;
+        max-width: 100%;
+    }
+    
     #container {   
         width:100%;
         float:none;
