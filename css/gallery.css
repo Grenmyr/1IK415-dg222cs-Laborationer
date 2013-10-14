@@ -1,0 +1,99 @@
+@import url(//fonts.googleapis.com/css?family=Bigelow+Rules);
+
+body{
+    background-color: #FFFAF0;
+}
+#container 
+{
+    width:1000px;
+    margin: 150px auto auto;
+    
+    
+}
+
+.gallery a
+{
+    
+	background: white;
+	display: inline;
+	float: right;
+	
+	padding: 20px 30px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.8);
+	box-shadow: 0 10px 6px rgba(0,0,0,.8);
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	transition: all .15s linear;
+	z-index: 0;
+    position:relative;
+	border:1px solid;
+}
+
+.gallery a:after /* påverkar text på bilden */ {
+	color: #333;
+	font-size: 2em;
+	content: attr(title);
+	position: relative;
+	top:15px;
+	font-family:Bigelow Rules;
+
+}
+
+.gallery img { 
+	display: block; 
+	width: inherit; 
+
+}
+
+.gallery a:nth-child(2n) /*här så görs så att det blir en cykel på 5 olika alternativ för utlägg av bilder */
+{
+	-webkit-transform: rotate(4deg);  
+	-moz-transform: rotate(4deg); 
+	transform: rotate(4deg); 
+}
+.gallery a:nth-child(3n) { 
+	-webkit-transform: rotate(-22deg);  
+	-moz-transform: rotate(-22deg); 
+	transform: rotate(-22deg); 
+}
+.gallery a:nth-child(4n)
+{
+	-webkit-transform: rotate(14deg);  
+	-moz-transform: rotate(14deg); 
+	transform: rotate(14deg); 
+}
+.gallery a:nth-child(5n)
+{
+	-webkit-transform: rotate(-18deg);  
+	-moz-transform: rotate(-18deg); 
+	transform: rotate(-18deg);
+}
+/* här påverkas skugga, lutning o scala vid hover o under tab?*/
+.gallery a:hover{
+	-webkit-transform: rotate(0deg); 
+	-moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+	-webkit-transform: scale(1.8); 
+	-moz-transform: scale(1.8);
+        transform: scale(1.8);
+	z-index:10;
+	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+        box-shadow: 0 10px 20px rgba(0,0,0,.7);
+}
+
+.gallery a:focus{
+	-webkit-transform: rotate(0deg); 
+	-moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+	-webkit-transform: scale(1.8); 
+	-moz-transform: scale(1.8);
+    transform: scale(1.8);
+	z-index:0;
+	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+        box-shadow: 0 10px 20px rgba(0,0,0,.7);
+}
