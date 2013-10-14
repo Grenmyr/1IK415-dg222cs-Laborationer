@@ -1,3 +1,6 @@
+/* har tagit hjälp av http://www.paulund.co.uk/create-polaroid-image-with-css */
+
+
 @import url(//fonts.googleapis.com/css?family=Bigelow+Rules);
 
 body{
@@ -72,7 +75,7 @@ body{
 	transform: rotate(-18deg);
 }
 /* här påverkas skugga, lutning o scala vid hover o under tab?*/
-.gallery a:hover{
+.gallery a:hover, .gallery a:focus{
 	-webkit-transform: rotate(0deg); 
 	-moz-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -85,15 +88,3 @@ body{
         box-shadow: 0 10px 20px rgba(0,0,0,.7);
 }
 
-.gallery a:focus{
-	-webkit-transform: rotate(0deg); 
-	-moz-transform: rotate(0deg);
-    transform: rotate(0deg);
-	-webkit-transform: scale(1.8); 
-	-moz-transform: scale(1.8);
-    transform: scale(1.8);
-	z-index:0;
-	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
-	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
-        box-shadow: 0 10px 20px rgba(0,0,0,.7);
-}
