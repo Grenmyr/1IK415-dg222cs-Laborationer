@@ -388,5 +388,7 @@ aside{
 }
 
 footer{
-    text-align:right;
+    text-align:left;
+    padding:10px;
+    background-color:#33FFFF;
 }
